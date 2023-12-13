@@ -26,6 +26,6 @@ void reverse_str(char *str, int len);
 extern char **environ;
 
 void free_arr(char **arr);
-void prtint_error(char name, char cmd, int idx);
+void prtint_e(char name, char cmd, int idx);
 
 #endif
